@@ -43,6 +43,7 @@ if exist "%TEMP%\googledrive-installer.exe" (
 ) else (
     echo [Google Drive] Downloading...
     powershell -ExecutionPolicy Bypass -Command "$ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest 'https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe' -OutFile \"$env:TEMP\googledrive-installer.exe\"; Write-Host '[Google Drive] Done.'")
+set __COMPAT_LAYER=RunAsInvoker
 start "" "%TEMP%\googledrive-installer.exe"
 echo [Installers] Launched.
 pause
