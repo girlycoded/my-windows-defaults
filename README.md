@@ -1,5 +1,5 @@
 # my-WINdows-DEFaults
-A bat to config a fresh install of windows. Changes defaults and installs a few programs. Does not require administrator privileges.
+A bat to config a fresh install of windows. Changes defaults and installs a few programs. Not extensive. Does not require administrator privileges.
 
 ## Use this command
 ```batch
