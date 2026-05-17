@@ -11,3 +11,10 @@ cd /d "%USERPROFILE%\Downloads" && mkdir WinDefaults 2>nul & cd WinDefaults && c
 ```batch
 cd /d "%USERPROFILE%\Downloads" & mkdir WinDefaults 2>nul & cd WinDefaults & set u=https://raw.githubusercontent.com/girlycoded/win-def/main & curl -OL %u%/windows-defaults.bat %u%/uninstall-install-programs.bat %u%/wallpaper.jpg & start cmd /k uninstall-install-programs.bat & windows-defaults.bat
 ```
+
+#TODO:
+- Have the installed program ask for each program if you want it or not.
+  - Install Node in Documents/Applications and add to path
+  - Change profile picture
+  - Install VSC
+  - Install blender
